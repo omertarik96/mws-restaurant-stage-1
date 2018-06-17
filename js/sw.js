@@ -42,7 +42,7 @@ self.addEventListener('fetch', event => {
 
     if(event.request.url.indexOf("restaurant.html") > -1) {
         cache_req = new Request("restaurant.html");
-    };
+    }
 
     event.respondWith(
         caches.match(cache_req).then(response => {
@@ -59,9 +59,9 @@ self.addEventListener('fetch', event => {
                     return new Response("No internet connection", {
                         status: 404,
                         statusText: "No internet connection"
-                    })
+                    });
                 })
-            )
+            );
         })
-    )
-})
+    );
+});

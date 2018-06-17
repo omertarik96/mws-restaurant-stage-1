@@ -10,6 +10,6 @@ if('serviceWorker' in navigator) {
         }, (err) => {
             // Error occured
             console.log("Service worker registration failed ", err);
-        })
-    })
+        });
+    });
 }

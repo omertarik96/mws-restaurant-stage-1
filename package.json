@@ -4,7 +4,7 @@
   "description": "A restaurant review project with powerfull offline PWA features for Google's MWS Nanodegree",
   "main": "index.html",
   "scripts": {
-    "start": "python3 -m http.server 8000",
+    "start": "gulp && python3 -m http.server 8000",
     "test": "test"
   },
   "repository": {
@@ -23,5 +23,11 @@
   "bugs": {
     "url": "https://github.com/omertarik96/mws-restaurant-stage-1/issues"
   },
-  "homepage": "https://github.com/omertarik96/mws-restaurant-stage-1#readme"
+  "homepage": "https://github.com/omertarik96/mws-restaurant-stage-1#readme",
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-jshint": "^2.1.0",
+    "jshint": "^2.9.5",
+    "jshint-stylish": "^2.2.1"
+  }
 }
