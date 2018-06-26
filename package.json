@@ -26,8 +26,14 @@
   "homepage": "https://github.com/omertarik96/mws-restaurant-stage-1#readme",
   "devDependencies": {
     "gulp": "^3.9.1",
+    "gulp-concat": "^2.6.1",
+    "gulp-inject": "^4.3.2",
     "gulp-jshint": "^2.1.0",
+    "gulp-webserver": "^0.9.1",
     "jshint": "^2.9.5",
     "jshint-stylish": "^2.2.1"
+  },
+  "dependencies": {
+    "prettier": "^1.13.6"
   }
 }
