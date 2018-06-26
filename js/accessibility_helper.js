@@ -18,3 +18,5 @@ class AccessibilityHelper {
         });
     }
 }
+
+export default AccessibilityHelper;
